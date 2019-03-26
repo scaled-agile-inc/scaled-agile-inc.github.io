@@ -6,9 +6,6 @@
 	* 3. SLDS Components
 *
 ******************************/
-* {
-	display: none!important;
-}
 .flex-container {
   display: flex;
   flex-flow: row wrap;
@@ -292,3 +289,7 @@ hr {
 /*.siteforceContentArea .comm-layout-column .ui-widget:not(:last-child){
     margin-bottom: 0!important;
 }*/
+
+* {
+	color: red!important;
+}
