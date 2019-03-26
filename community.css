@@ -285,11 +285,3 @@ hr {
 .cMembershipExpiration .expiredCertsSections {
 	font-size: 14px!important;
 }
-/* Misc */
-/*.siteforceContentArea .comm-layout-column .ui-widget:not(:last-child){
-    margin-bottom: 0!important;
-}*/
-
-* {
-	color: red!important;
-}
