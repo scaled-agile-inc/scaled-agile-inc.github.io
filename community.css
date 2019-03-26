@@ -6,6 +6,9 @@
 	* 3. SLDS Components
 *
 ******************************/
+* {
+	display: none!important;
+}
 .flex-container {
   display: flex;
   flex-flow: row wrap;
