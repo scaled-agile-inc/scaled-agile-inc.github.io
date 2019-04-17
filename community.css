@@ -1,40 +1,18 @@
 /******************************
 *
 	* Key:
-	* 1. Misc Styles
-	* 2. Custom Components
-	* 3. SLDS Components
+	* 1. Custom Components
+	* 2. SLDS Overrides
+	* 3. Misc Styles
 *
 ******************************/
-.flex-container {
-  display: flex;
-  flex-flow: row wrap;
-  justify-content: space-around;
-}
-/* The flip card container - set the width and height to whatever you want. We have added the border property to demonstrate that the flip itself goes out of the box on hover (remove perspective if you don't want the 3D effect */
-.flip-card {
-  background-color: white;
-  width: 300px;
-  min-height: 240px;
-  margin: 10px auto;
-  border: 1px solid #f1f1f1;
-  display: block;
-}
-a.flip-card h4{
-    color: black;
-}
 
-/* This container is needed to position the front and back side */
-.flip-card-inner {
-  text-align: center;
-  padding: 40px 20px;
-}
 
-/* Footer */
-.slds-docked-form-footer{
-  background-color: #EAECEC!important;
-}
-
+/******************************
+*
+    * 1. Custom Components
+*
+******************************/
 
 /* Body */
 html{
@@ -46,10 +24,59 @@ body, p{
 .siteforceThemeLayoutStarter{
   font-size: .9rem!important;   
 } 
-
 .slds-docked-form-footer{
     z-index: 2!important;
 }
+
+/* Homepage Cards */
+.flex-container {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+}
+.flip-card {
+  background-color: white;
+  width: 300px;
+  min-height: 240px;
+  margin: 10px auto;
+  border: 1px solid #f1f1f1;
+  display: block;
+}
+a.flip-card h4{
+    color: black;
+}
+.flip-card-inner {
+  text-align: center;
+  padding: 40px 20px;
+}
+
+/* Icons for Homepage Tiles */
+.icon-bg{
+    height: 90px; 
+    width: 90px; 
+    margin: 0 auto; 
+    background-color: gray; 
+    border-radius: 50%; 
+    align-items: center; 
+    display: flex;
+}
+.icon-img{
+    margin: 0 auto;
+}
+
+/* Service Help Button */
+.forceCommunityEmbeddedServiceHelpButton .flatButton{
+    border-radius: 6px 6px 0 0!important;
+}
+.embeddedServiceSidebarButton{
+    border-radius: 0px!important;
+}
+
+/* Tile Links */
+.cCommunityTileLink span.tile-label{
+    text-transform: none!important;
+}
+
 /* Tile Link */
 .cCommunityTileLink span.tile-label{
     text-transform: capitalize!important;
@@ -75,37 +102,17 @@ body, p{
     opacity: 0.9;
 }
 
+
 /******************************
 *
-	* 1. Misc Styles
+    * 2. SLDS Overrides
 *
 ******************************/
 
-/******************************
-	3. Custom Components 
-*******************************/
-
-/* Trending Articles by Topic */
-.selfServiceTopicTrendingArticles42 .slds-grid--vertical a{
-	color: rgb(38, 66, 99)!important;    
+/* Footer */
+.slds-docked-form-footer{
+  background-color: #EAECEC!important;
 }
-
-/* Tile Links */
-.cCommunityTileLink span.tile-label{
-    text-transform: none!important;
-}
-
-/* Service Help Button */
-.forceCommunityEmbeddedServiceHelpButton .flatButton{
-    border-radius: 6px 6px 0 0!important;
-}
-.embeddedServiceSidebarButton{
-    border-radius: 0px!important;
-}
-
-/*******************************
-	3. SLDS Components 
-*******************************/
 
 /* Headings */
 h1, h2, h3, h4, h5, h6{
@@ -143,75 +150,6 @@ h1, h2, h3, h4, h5, h6{
     text-transform: uppercase!important;
 }
 
-/* Text Links */
-.selfServiceTopicTrendingArticles42 .slds-grid--vertical a:link{
-    color: #3d74ba;
-}
-
-/* Lists */
-ul.list-no-style{
-    list-style: none!important;
-    padding: 0!important;
-}
-ul.list-no-style li{
-    list-style: none!important;
-    padding: 0!important;
-}
-.forceCommunityRichText ol li, .forceCommunityRichText ul li {
-    padding-left: 0;
-}
-
-/* Card */
-/*.card{
-    border: 1px solid #f4f4f4;
-	box-shadow: 0 1px 2px 0 rgba(0,0,0,0.2);
-    padding: 20px;
-    background: white;
-    border-radius: 4px;
-}*/
-
-/* Trending FAQs */
-.comm-topic-trending-articles h2{
-    font-size: 24px!important;
-    line-height: 36px!important;
-    font-weight: 400!important;
-}
-.comm-topic-trending-articles .slds-text-body_small{
-    font-size: 16px;
-}
-
-/* Header
-.header{
-    box-shadow: 0 0 2px 0 rgba(0,0,0,0.2);
-}
-#header-overlay {
-	 background: rgba(0,0,0,.20);
-}
-.siteforceServiceBody .cSearchPublisher .mobile-search-icon,
-.siteforceServiceBody .cAltToggleNav .slds-button__icon,
-.siteforceServiceBody .cProfileCon a.trigger-link {
-    color: #3d74ba!important;
-}
-.forceCommunityGlobalNavigation .slds-list__item a, .forceCommunityGlobalNavigation .slds-list__item button {
-    font-size: .95rem!important;
-}  */
-
-/* Header Navigation
-.forceCommunityGlobalNavigation .slds-list__item a, .forceCommunityGlobalNavigation .slds-list__item button {
-    font-size: 1.0rem!important;
-}
-
-.siteforceContentArea .comm-layout-column .ui-widget:not(:last-child) {
-    margin-bottom: .5rem !important;
-}
-
-hr {
-    display: block;
-    margin: .5rem !important;
-    border-top: 1px solid rgb(212, 212, 212);
-    height: 1px;
-    clear: both;
-} */
 
 /* Icons */
 .siteforceServiceBody .cNotifications .unsNotificationsCounter{
@@ -233,10 +171,44 @@ hr {
     fill: rgb(145, 145, 145)!important;
 }
 
-/* Content Header
-.comm-content-header{
-    margin-top: 16px;
-} */
+/* Lists */
+ul.list-no-style{
+    list-style: none!important;
+    padding: 0!important;
+}
+ul.list-no-style li{
+    list-style: none!important;
+    padding: 0!important;
+}
+.forceCommunityRichText ol li, .forceCommunityRichText ul li {
+    padding-left: 0;
+}
+
+/* Text Links */
+.selfServiceTopicTrendingArticles42 .slds-grid--vertical a:link{
+    color: #3d74ba;
+}
+
+/* Trending Articles */
+.comm-topic-trending-articles h2{
+    font-size: 24px!important;
+    line-height: 36px!important;
+    font-weight: 400!important;
+}
+.comm-topic-trending-articles .slds-text-body_small{
+    font-size: 16px;
+}
+
+/* Trending Articles by Topic */
+.selfServiceTopicTrendingArticles42 .slds-grid--vertical a{
+    color: rgb(38, 66, 99)!important;    
+}
+
+/******************************
+*
+    * 3. Misc Styles
+*
+******************************/
 
 .cMembershipExpiration .expiredCertsSections {
 	font-size: 14px!important;
