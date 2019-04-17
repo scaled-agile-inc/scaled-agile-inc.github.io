@@ -1,18 +1,35 @@
 /******************************
 *
 	* Key:
-	* 1. Custom Components
+	* 1. Custom 
 	* 2. SLDS Overrides
-	* 3. Misc Styles
+	* 3. Misc 
 *
 ******************************/
 
 
 /******************************
 *
-    * 1. Custom Components
+    * 1. Custom 
 *
 ******************************/
+
+/* Background Colors - Refactor to color tokens  */
+.bg_sai_blue{
+    background-color: #3d74ba!important;
+}
+.bg_sai_dkblue{
+    background-color: #264263!important;
+}
+.bg_sai_green{
+    background-color: #adbd23!important;
+}
+.bg_sai_gold{
+    background-color: #f9bb4e!important;
+}
+.bg_sai_gray{
+    background-color: #babcbe!important;
+}
 
 /* Body */
 html{
@@ -206,7 +223,7 @@ ul.list-no-style li{
 
 /******************************
 *
-    * 3. Misc Styles
+    * 3. Misc 
 *
 ******************************/
 
