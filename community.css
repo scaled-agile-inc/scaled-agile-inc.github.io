@@ -201,6 +201,15 @@ a.flip-card h4{
     display: none !important;
 }
 
+.cMembershipExpiration .summaryHeader {
+    color: #000;
+    display: inline-block;
+    font-weight: 400!important;
+    font-size: 24px!important;
+}
+.summaryHeader.slds-m-around_x-small {
+    margin: 0!important;
+}
 
 /******************************
 *
