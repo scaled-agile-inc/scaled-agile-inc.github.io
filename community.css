@@ -119,6 +119,88 @@ a.flip-card h4{
     opacity: 0.9;
 }
 
+/* Service Help Button */
+.forceCommunityEmbeddedServiceHelpButton .flatButton{
+    border-radius: 6px 6px 0 0!important;
+}
+.embeddedServiceSidebarButton{
+    border-radius: 0px!important;
+}
+
+/* Video Catalogs Stuff */
+.vtuiCatalogsCmp.catalog-container .results .panelsContainer .catalogPanelOne {
+    cursor: pointer;
+    overflow: visible;
+    vertical-align: top;
+    width: 22% !important;
+    min-width: 130px !important;
+    height: 175px !important;
+}
+@media all and (min-width: 601px) and (max-width: 1045px) {
+   .vtuiCatalogsCmp.catalog-container .results .panelsContainer .catalogPanelOne {
+    cursor: pointer;
+    overflow: visible;
+    vertical-align: top;
+    width: 200px !important;
+    height: 175px !important;
+    }
+}
+@media all and (max-width: 600px) {
+   .vtuiCatalogsCmp.catalog-container .results .panelsContainer .catalogPanelOne {
+    cursor: pointer;
+    overflow: visible;
+    vertical-align: top;
+    width: 130px !important;
+    height: 130px !important;
+    }
+}
+.vtuiCatalogsCmp.catalog-container .results .panelsContainer .catalogPanelOne .titleCatalog {
+    padding-bottom: 5%; /*refactor to use SLDS layout modifiers */
+    padding-top: 5%; /*refactor to use SLDS layout modifiers */
+    background-color: rgb(61, 116, 186);
+    text-transform: none !important;
+    height: 20px !important;
+}
+.vtuiCatalogsCmp.catalog-container .results .panelsContainer .catalogPanelOne .backgroundImage {
+    background-size: cover;
+    opacity: 1 !important;
+    margin-top: 20px !important;
+    width: 99.8% !important;
+}
+.vtuiCatalogsCmp.catalog-container .results .panelsContainer .catalogPanelOne .hoverColor {
+    opacity: 1;
+    margin-top: 20px;
+    width: 99.8% !important;
+}
+
+.vtuiCatalogsCmp.catalog-container .results {
+    text-align: center;
+}
+
+.vtuiMediaCmp .media-grid_list-view .media-item .media-item__descr {
+    min-height: 60px;
+    padding: 0 0 2.5rem 0 !important;
+    overflow-x: hidden;
+    text-align: left !important;
+    font-size: 14px !important;
+}
+.vtuiMediaCmp .media-grid_list-view .media-item .media-item__title {
+    margin-right: 30px;
+    text-align: left !important;
+}
+
+/* GetFeedback Stuff */
+.presenter-brand-footer {
+    text-align: right;
+    display: none !important;
+}
+.SurveyNavBar {
+    display: none !important;
+}
+.SurveyNavBar .presenter-brand-footer {
+    display: none !important;
+}
+
 
 /******************************
 *
