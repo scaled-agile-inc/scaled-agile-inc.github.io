@@ -81,6 +81,71 @@ a.flip-card h4{
     margin: 0 auto;
 }
 
+/* Partner Portal Stuff */
+.btn-outline-white, .content-info .gform_button {
+    color: #fff !important;
+    background-image: none;
+    background-color: transparent;
+    border-color: #fff;
+    border: 2px solid #ffffff;
+    padding: .5rem 1rem;
+    display: inline-block;
+    text-decoration: none;
+    font-weight: 400;
+    line-height: 1.25;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    font-size: 1rem;
+    transition: all .2s ease-in-out;
+}
+.btn-outline-white:hover, .content-info .gform_button:hover {
+    color: #292b2c !important;
+    background-color: #fff;
+    border-color: #fff;
+    text-decoration: none !important;
+}
+.btn-outline-green:hover, .content-info .gform_button:hover {
+    color: #292b2c !important;
+    background-color: #fff;
+    border-color: #fff;
+    text-decoration: none !important;
+}
+.btn-outline-green, .content-info .gform_button {
+    color: #fff !important;
+    background-image: none;
+    background-color: #aebd24;
+    padding: .5rem 1rem;
+    display: inline-block;
+    text-decoration: none;
+    font-weight: 400;
+    line-height: 1.25;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    font-size: 1rem;
+    transition: all .2s ease-in-out;
+}
+.tailor-grow:hover, .tailor-grow:focus, .tailor-grow:active {
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    transform: scale(1.05);
+}
+.tailor-grow {
+    -webkit-transition-property: transition-property-names(transform, "webkit");
+    -moz-transition-property: transition-property-names(transform, "moz");
+    transition-property: transition-property-names(transform, false);
+    -webkit-transition-duration: .3s;
+    -moz-transition-duration: .3s;
+    transition-duration: .3s;
+    height: 400px;
+}
+#partner {
+    font-size:18px;
+}
+
 /* Service Help Button */
 .forceCommunityEmbeddedServiceHelpButton .flatButton{
     border-radius: 6px 6px 0 0!important;
@@ -233,6 +298,33 @@ a.flip-card h4{
 *
 ******************************/
 
+/* Chatter */
+/* Chatter Updates */
+.forceChatterFeedCommentInputDesktop.always-show-actions .commentActionPanel, .forceChatterFeedCommentInputDesktop.expanded .commentActionPanel {
+    display: none !important;
+    margin-top: 0;
+}
+
+.forceChatterPublisherAttachments.desktop .cuf-attachmentsList {
+    width: inherit;
+    display: none !important;
+}
+
+.forceChatterPublisherAttachments .cuf-attachmentsItem {
+    display: none !important;
+}
+
+/* File Preview */
+.forceContentPreviewPlayerTopToolbar .preview-top-toolbar .file-preview-buttons{ 
+    min-width: unset; float: right; 
+}
+.forceContentPreviewPlayerTopToolbar .preview-top-toolbar .file-preview-buttons button[title="View File Details"],
+.forceContentPreviewPlayerTopToolbar .preview-top-toolbar .file-preview-buttons button[title="Public Link"],
+.forceContentPreviewPlayerTopToolbar .preview-top-toolbar .file-preview-close {
+    display:none; 
+}
+
+
 /* Footer */
 .slds-docked-form-footer{
   background-color: #EAECEC!important;
@@ -309,6 +401,15 @@ ul.list-no-style li{
     padding-left: 0;
 }
 
+/* Settings */
+/* hide sections of OOTB user settings component */
+.forceCommunityUserSettings .locationSection .sectionbox:nth-child(1), /* Location - Language */
+/*.forceCommunityUserSettings .locationSection .sectionbox:nth-child(2),*/ /* Location - Locale */
+.forceCommunityUserSettings .profileVisibilitySection {
+    display:none;
+}
+
+
 /* Text Links */
 .selfServiceTopicTrendingArticles42 .slds-grid--vertical a:link{
     color: #3d74ba;
@@ -338,3 +439,9 @@ ul.list-no-style li{
 .cMembershipExpiration .expiredCertsSections {
 	font-size: 14px!important;
 }
+
+/* Support */
+.topicHierarchy-child{
+    font-size: 1.0rem!important;
+}
+
