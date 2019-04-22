@@ -211,6 +211,22 @@ a.flip-card h4{
     margin: 0!important;
 }
 
+/* */
+.vtuiCatalogsCmp {
+   background-color: #f8f8fa !important;
+}
+
+.vtuiAllMediaCmp {
+   background-color: #f8f8fa !important;
+}
+.vtuiPlaylistCmp {
+
+   background: #f8f8fa !important;
+}
+.vtuiPlaylistCmp .meta__descr-text {
+   color: #181819 !important;
+}
+
 /******************************
 *
     * 2. SLDS Overrides
