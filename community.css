@@ -445,3 +445,8 @@ ul.list-no-style li{
     font-size: 1.0rem!important;
 }
 
+/* Hide Stuff */
+.profile-menuItem.myAccount.uiMenuItem{
+    display: none;
+}
+
