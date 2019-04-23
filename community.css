@@ -450,3 +450,17 @@ ul.list-no-style li{
     display: none;
 }
 
+@media all and (max-width: 750px) {
+    body.comm-page-login-home #rightFrame {
+        display:none;
+    }
+    body.comm-page-login-home #LoginNew {
+        width:100% !important;
+    }
+}
+.salesforceIdentityCommunityLogo2 .communityLogo {
+    max-width: 100%;
+    width: 100% !important;
+}
+
+
