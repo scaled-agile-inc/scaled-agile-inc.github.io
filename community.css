@@ -463,4 +463,9 @@ ul.list-no-style li{
     width: 100% !important;
 }
 
+#LoginNew a:link,
+#LoginNew a:visited{
+    color: #3d74ba!important;
+}
+
 
