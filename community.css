@@ -148,19 +148,22 @@ a.flip-card h4{
 
 /* Service Help Button */
 .forceCommunityEmbeddedServiceHelpButton .flatButton{
-    border-radius: 6px 6px 0 0!important;
+    border-radius: 4px 4px 0 0!important;
 }
 .embeddedServiceSidebarButton{
     border-radius: 0px!important;
 }
 .contactSupportButton{
     width: auto!important;
+    border-radius: 4px!important;
 }
 .forceCommunityContactSupportButton{
     width: auto!important;
+    border-radius: 4px!important;
 }
 .contactSupportButton.forceCommunityContactSupportButton{
     width: auto!important;
+    border-radius: 4px!important;
 }
 
 
