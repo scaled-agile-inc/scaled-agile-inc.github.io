@@ -153,15 +153,13 @@ a.flip-card h4{
 .embeddedServiceSidebarButton{
     border-radius: 0px!important;
 }
-.contactSupportButton.slds-button.stylingOverrideHook_592a.forceCommunityContactSupportButton{    
+.contactSupportButton.slds-button.stylingOverrideHook_592a.forceCommunityContactSupportButton,
+.forceCommunityContactSupportButton.contactSupportButton.stylingOverrideHook_94293a,
+.contactSupportButton.slds-button.stylingOverrideHook_942a.forceCommunityContactSupportButton,
+.contactSupportButton.slds-button.stylingOverrideHook_69398a.forceCommunityContactSupportButton{
     width: auto!important;
 }
-.forceCommunityContactSupportButton.contactSupportButton.stylingOverrideHook_94293a { 
-    width: auto!important;
-}
-.contactSupportButton.slds-button.stylingOverrideHook_942a.forceCommunityContactSupportButton{
-    width: auto!important;  
-}
+
 
 /* Tile Links */
 .cCommunityTileLink span.tile-label{
@@ -377,12 +375,8 @@ h1, h2, h3, h4, h5, h6{
 }
 
 /* Fonts */
-.slds-text-body_small, .slds-text-body--small {     
-    font-size: 1.0rem!important;
-}
-.slds-p-vertical_small, .slds-p-vertical--small {     
-    padding-top: 1.0rem!important;  
-    padding-bottom: 1.0rem!important;
+.slds-text-body_small {     
+    font-size: 16px!important;
 }
 
 
