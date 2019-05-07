@@ -159,6 +159,9 @@ a.flip-card h4{
 .forceCommunityContactSupportButton.contactSupportButton.stylingOverrideHook_94293a { 
     width: auto!important;
 }
+.contactSupportButton.slds-button.stylingOverrideHook_942a.forceCommunityContactSupportButton{
+    width: auto!important;  
+}
 
 /* Tile Links */
 .cCommunityTileLink span.tile-label{
