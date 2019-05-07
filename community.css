@@ -153,10 +153,13 @@ a.flip-card h4{
 .embeddedServiceSidebarButton{
     border-radius: 0px!important;
 }
-.contactSupportButton.slds-button.stylingOverrideHook_592a.forceCommunityContactSupportButton,
-.forceCommunityContactSupportButton.contactSupportButton.stylingOverrideHook_94293a,
-.contactSupportButton.slds-button.stylingOverrideHook_942a.forceCommunityContactSupportButton,
-.contactSupportButton.slds-button.stylingOverrideHook_69398a.forceCommunityContactSupportButton{
+.contactSupportButton{
+    width: auto!important;
+}
+.forceCommunityContactSupportButton{
+    width: auto!important;
+}
+.contactSupportButton.forceCommunityContactSupportButton{
     width: auto!important;
 }
 
