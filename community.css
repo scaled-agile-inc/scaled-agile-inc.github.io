@@ -153,6 +153,9 @@ a.flip-card h4{
 .embeddedServiceSidebarButton{
     border-radius: 0px!important;
 }
+.contactSupportButton.slds-button.stylingOverrideHook_592a.forceCommunityContactSupportButton{
+    width: auto!important;
+}
 
 /* Tile Links */
 .cCommunityTileLink span.tile-label{
