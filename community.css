@@ -494,8 +494,13 @@ ul.list-no-style li{
     width: 85%!important;
 }
 
-.selfServiceBaseCaseCreation .two-column .mdp-container, .selfServiceBaseCaseCreation .two-column .deflection-container {
+.selfServiceBaseCaseCreation .two-column .mdp-container, 
+.selfServiceBaseCaseCreation .two-column .deflection-container {
     margin-top: 16px!important;
+}
+
+.selfServiceCaseCreate .caseHeader {
+    margin-bottom: 30px!important;
 }
 
 
