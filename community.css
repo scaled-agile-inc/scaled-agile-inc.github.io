@@ -353,8 +353,7 @@ h1, h2, h3, h4, h5, h6{
     font-weight: 400!important;
     margin: 12px 0 0 0;
 }
-.cSai_ContactUs .h1{font-size: 24px!important;}
-.cSai_ContactUs .h1,
+.cSai_ContactUs h1,
 .selfServiceCaseArticleDeflection .header-title,
 .selfServiceCaseCreate .caseHeader .bBody .headerLabel,
 .slds-page-header__title, 
