@@ -353,6 +353,8 @@ h1, h2, h3, h4, h5, h6{
     font-weight: 400!important;
     margin: 12px 0 0 0;
 }
+.caseHeader,
+.slds-page-header__title, 
 .forceCommunityRichText h2, .h2{
     font-size: 24px!important;
     line-height: 36px!important;
@@ -362,7 +364,7 @@ h1, h2, h3, h4, h5, h6{
     font-size: 20px!important;
     line-height: 32px!important;
     font-weight: 600!important;
-}
+}x
 .forceCommunityRichText h4, .h4{
     font-size: 18px!important;
     line-height: 30px!important;
