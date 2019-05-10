@@ -494,6 +494,7 @@ ul.list-no-style li{
     width: 85%!important;
 }
 
+/* */
 .selfServiceBaseCaseCreation .two-column .mdp-container, 
 .selfServiceBaseCaseCreation .two-column .deflection-container {
     margin-top: 16px!important;
@@ -501,6 +502,12 @@ ul.list-no-style li{
 
 .selfServiceCaseCreate .caseHeader {
     margin-bottom: 30px!important;
+}
+@media only screen and (min-aspect-ratio: 4/3) and (min-width: 48em), 
+only screen and (min-width: 64.0625em) {
+    .selfServiceCaseCreate .two-column .caseHeader {
+        padding-bottom: 0!important;
+    }
 }
 
 
