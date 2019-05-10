@@ -347,33 +347,33 @@ a.flip-card h4{
 h1, h2, h3, h4, h5, h6{
     font-family: arial!important;
 }
-.forceCommunityRichText h1{
+.forceCommunityRichText h1, .h1{
     font-size: 32px!important;
     line-height: 44px!important;
     font-weight: 400!important;
     margin: 12px 0 0 0;
 }
-.forceCommunityRichText h2{
+.forceCommunityRichText h2, .h2{
     font-size: 24px!important;
     line-height: 36px!important;
     font-weight: 400!important;
 }
-.forceCommunityRichText h3{
+.forceCommunityRichText h3, .h3{
     font-size: 20px!important;
     line-height: 32px!important;
     font-weight: 600!important;
 }
-.forceCommunityRichText h4{
+.forceCommunityRichText h4, .h4{
     font-size: 18px!important;
     line-height: 30px!important;
     font-weight: 400!important;
 }
-.forceCommunityRichText h5{
+.forceCommunityRichText h5, .h5{
     font-size: 16px!important;
     line-height: 28px!important;
     font-weight: 600!important;
 }
-.forceCommunityRichText h6{
+.forceCommunityRichText h6, .h6{
     font-size: 16px!important;
     line-height: 28px!important;
     font-weight: 400!important;
