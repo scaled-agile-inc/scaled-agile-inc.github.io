@@ -35,7 +35,10 @@
 html{
   font-size: 1.0rem!important;   
 }
-body, p{
+body, 
+p, 
+.comm-case-deflection__item,
+.case-article-deflection-title-link{
   font-size: 1.0rem!important;   
 } 
 .siteforceThemeLayoutStarter{
