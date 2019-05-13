@@ -38,6 +38,7 @@ html{
 body, p{
   font-size: 1.0rem!important;   
 } 
+.selfServiceCaseArticleDeflection .selfServiceSimpleArticleItem .item-title,
 .comm-case-deflection__item,
 .case-article-deflection-title-link{
   font-size: 16px!important;   
@@ -45,6 +46,8 @@ body, p{
 .siteforceThemeLayoutStarter{
   font-size: .9rem!important;   
 } 
+
+/* Footer */
 .slds-docked-form-footer{
     z-index: 2!important;
 }
