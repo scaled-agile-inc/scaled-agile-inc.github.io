@@ -510,6 +510,9 @@ only screen and (min-width: 64.0625em) {
         padding-bottom: 0!important;
     }
 }
+.selfServiceArticleListItem {
+    padding: 20px!important;
+}
 
 
 
