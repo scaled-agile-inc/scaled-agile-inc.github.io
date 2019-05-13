@@ -513,7 +513,7 @@ only screen and (min-width: 64.0625em) {
 .selfServiceArticleListItem {
     padding: 20px!important;
 }
-.slds-image.uiMenuItem.forceCommunityTileMenuItem{
+.forceCommunityTileMenuItem{
     z-index: 2!important;
 }
 
