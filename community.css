@@ -38,7 +38,8 @@ html{
 body, p{
   font-size: 1.0rem!important;   
 } 
-.selfServiceCaseArticleDeflection .selfServiceSimpleArticleItem .item-title,
+.selfServiceCaseArticleDeflection .selfServiceSimpleArticleItem .item-title-link,
+.selfServiceCaseArticleDeflection .selfServiceSimpleArticleItem .item-title-link .item-title,
 .comm-case-deflection__item,
 .case-article-deflection-title-link{
   font-size: 16px!important;   
