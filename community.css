@@ -361,6 +361,8 @@ h1, h2, h3, h4, h5, h6{
     font-weight: 400!important;
     margin: 12px 0 0 0;
 }
+
+.cCertificationSummary .summaryHeader,
 .cSai_ContactUs h1,
 .selfServiceCaseArticleDeflection .header-title,
 .selfServiceCaseCreate .caseHeader .bBody .headerLabel,
@@ -375,8 +377,9 @@ h1, h2, h3, h4, h5, h6{
     font-size: 20px!important;
     line-height: 32px!important;
     font-weight: 600!important;
-}x
-.forceCommunityRichText h4, .h4{
+}
+.flip-card-inner .forceCommunityRichText h4,
+.forceCommunityRichText h4{
     font-size: 18px!important;
     line-height: 30px!important;
     font-weight: 400!important;
@@ -524,6 +527,7 @@ only screen and (min-width: 64.0625em) {
 .forceCommunityTileMenuItem{
     z-index: 2!important;
 }
+
 
 
 
