@@ -401,7 +401,6 @@ h1, h2, h3, h4, h5, h6{
     font-size: 16px!important;
 }
 
-
 /* Icons */
 .siteforceServiceBody .cNotifications .unsNotificationsCounter{
     color: #fff!important;
@@ -441,6 +440,11 @@ ul.list-no-style li{
 /*.forceCommunityUserSettings .locationSection .sectionbox:nth-child(2),*/ /* Location - Locale */
 .forceCommunityUserSettings .profileVisibilitySection {
     display:none;
+}
+
+/* Tabs */
+.uiTabset--default {
+   background-color: rgb(255, 255, 255, 0)!important;
 }
 
 
