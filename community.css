@@ -49,7 +49,7 @@ body, p{
 } 
 
 /* Cards  */
-*.member-card, .test-me {
+*.member-card, .test_me {
 	min-height: 241px!important;
 	border: 1px solid #f4f4f4!important; 
 	border-radius: 4px!important; 
