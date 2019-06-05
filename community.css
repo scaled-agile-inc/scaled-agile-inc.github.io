@@ -373,6 +373,7 @@ h1, h2, h3, h4, h5, h6{
     line-height: 36px!important;
     font-weight: 400!important;
 }
+.card.member-card h3,
 .forceCommunityRichText h3, .h3{
     font-size: 20px!important;
     line-height: 32px!important;
