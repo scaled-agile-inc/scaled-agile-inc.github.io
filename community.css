@@ -352,16 +352,18 @@ a.flip-card h4{
 }
 
 /* Headings */
+/* TODO: Hella refactoring */
 h1, h2, h3, h4, h5, h6{
     font-family: arial!important;
 }
+/* H1 */
 .forceCommunityRichText h1, .h1{
     font-size: 32px!important;
     line-height: 44px!important;
     font-weight: 400!important;
     margin: 12px 0 0 0;
 }
-
+/* H2 */
 .cCertificationSummary .summaryHeader,
 .cSai_ContactUs h1,
 .selfServiceCaseArticleDeflection .header-title,
@@ -373,30 +375,35 @@ h1, h2, h3, h4, h5, h6{
     line-height: 36px!important;
     font-weight: 400!important;
 }
+/* H3 */
+.card.member-card h3,
 .forceCommunityRichText h3, .h3{
     font-size: 20px!important;
     line-height: 32px!important;
     font-weight: 600!important;
 }
+/* H4 */
 .flip-card-inner .forceCommunityRichText h4,
 .forceCommunityRichText h4{
     font-size: 18px!important;
     line-height: 30px!important;
     font-weight: 400!important;
 }
+/* H5 */
 .forceCommunityRichText h5, .h5{
     font-size: 16px!important;
     line-height: 28px!important;
     font-weight: 600!important;
 }
+/* H5 */
 .forceCommunityRichText h6, .h6{
     font-size: 16px!important;
     line-height: 28px!important;
     font-weight: 400!important;
     text-transform: uppercase!important;
 }
-
-/* Fonts */
+/* Body text */
+/* TODO: Hella refactoring */
 .slds-text-body_small {     
     font-size: 16px!important;
 }
