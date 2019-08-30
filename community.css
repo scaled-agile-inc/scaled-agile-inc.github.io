@@ -56,6 +56,9 @@ body, p{
 	padding: 20px!important; 
 	background-color: white!important;
 }
+*.slds-card.forceCommunityNbaWidget{
+    border: none!important;
+}
 
 /* Footer */
 .slds-docked-form-footer{
