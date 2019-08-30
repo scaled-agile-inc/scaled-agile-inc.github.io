@@ -57,11 +57,17 @@ body, p{
 	padding: 20px!important; 
 	background-color: white!important;
 }
+.nbaImage{
+    min-height: 180px!important;
+}
 *.slds-card.forceCommunityNbaWidget{
     border: none!important;
     background-color: transparent!important;
     padding: 0!important;
     margin: 0!important;
+}
+*.slds-card.forceCommunityNbaWidget .slds-box{
+    background-color: white!important;
 }
 
 /* Footer */
