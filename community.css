@@ -386,10 +386,17 @@ h1, h2, h3, h4, h5, h6{
 }
 /* H3 */
 .card.member-card h3,
-.forceCommunityRichText h3, .h3{
+.forceCommunityRichText h3, 
+.h3{
     font-size: 20px!important;
     line-height: 32px!important;
     font-weight: 600!important;
+}
+.test-propositionDescription{
+    font-size: 20px!important;
+    line-height: 32px!important;
+    font-weight: 600!important;
+    text-align: center;
 }
 /* H4 */
 .flip-card-inner .forceCommunityRichText h4,
