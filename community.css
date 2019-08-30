@@ -49,7 +49,6 @@ body, p{
 } 
 
 
-
 /* Cards  */
 *.member-card, .test_me {
 	min-height: 241px!important;
@@ -60,6 +59,9 @@ body, p{
 }
 *.slds-card.forceCommunityNbaWidget{
     border: none!important;
+    background-color: transparent!important;
+    padding: 0!important;
+    margin: 0!important;
 }
 
 /* Footer */
