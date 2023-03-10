@@ -375,10 +375,7 @@ a.flip-card h4{
 }
 
 /* Headings */
-/* TODO: Hella refactoring */
-h1, h2, h3, h4, h5, h6{
-    font-family: arial!important;
-}
+
 /* H1 */
 .forceCommunityRichText h1, .h1{
     font-size: 32px!important;
